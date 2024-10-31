@@ -15,11 +15,11 @@ Description: Includes features such as Date, OPEN, HIGH, LOW, PREV. CLOSE, ltp (
 
 ## Models Implemented
 
-(1) Linear Regression
-(2) Support Vector Machines (SVM)
-(3) Random Forest
-(4) XGBoost
-(5) Adaptive Boosting (extra) 
+(1) Linear Regression<br> 
+(2) Support Vector Machines (SVM)<br>
+(3) Random Forest<br>
+(4) XGBoost<br>
+(5) Adaptive Boosting (extra)<br> 
 
 ## Results
 
