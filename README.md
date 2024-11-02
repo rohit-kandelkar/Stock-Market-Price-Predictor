@@ -50,4 +50,4 @@ Teammate 2 - Rajeshwari Golande
 
 ### Note:
 (i) You'll need to update the CSV file of each stock with everyday readings for accurate results.<br>
-(ii) You can run the code in Visual Studio Code as well.
+(ii) You can run this project in Visual Studio Code Editor as well.
