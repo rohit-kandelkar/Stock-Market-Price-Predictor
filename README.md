@@ -49,5 +49,5 @@ Teammate 1 - Rohit Kandelkar (https://github.com/rohit-kandelkar)<br>
 Teammate 2 - Rajeshwari Golande
 
 ### Note:
-(i) You'll need to update the CSV file of each stock with everyday readings for accurate results.
+(i) You'll need to update the CSV file of each stock with everyday readings for accurate results.<br>
 (ii) You can run the code in Visual Studio Code as well.
