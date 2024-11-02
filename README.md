@@ -27,10 +27,10 @@ Description: Includes features such as Date, OPEN, HIGH, LOW, PREV. CLOSE, ltp (
 
  (ii) Comparison: Summary of model performance:
 
-      (a) Random Forest: Struggles to capture upward trends.<br>
-      (b) XGBoost: Slight improvement, but needs better tuning.<br>
-      (c) SVM: Flat predictions, indicating poor adaptability.<br>
-      (d) Linear Regression: Closely follows actual trends but requires more features for accuracy.<br>
+      (a) Random Forest: Struggles to capture upward trends.
+      (b) XGBoost: Slight improvement, but needs better tuning.
+      (c) SVM: Flat predictions, indicating poor adaptability.
+      (d) Linear Regression: Closely follows actual trends but requires more features for accuracy.
 
  (iii) Visualizations: Actual vs. predicted price plots for each model.
 
@@ -44,6 +44,6 @@ We extend our gratitude to the National Stock Exchange (NSE) repositories for pr
 
 ## Contributors
 
-Yash Jahagirdar - Project Lead (https://github.com/Yash-Jahagirdar)
-Teammate 1 - Rohit Kandelkar (https://github.com/rohit-kandelkar)
+Yash Jahagirdar - Project Lead (https://github.com/Yash-Jahagirdar)<br>
+Teammate 1 - Rohit Kandelkar (https://github.com/rohit-kandelkar)<br>
 Teammate 2 - Rajeshwari Golande
