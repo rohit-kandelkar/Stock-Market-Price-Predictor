@@ -1,53 +1,89 @@
-# Stock-Market-Price-Predictor
-## Description
+# 📈 Stock Market Price Predictor
 
-This project predicts stock prices for Tata Motors, BHEL, Zomato, TCS, and OIL using Linear Regression, SVM, Random Forest, and XGBoost. We trained models on historical data, evaluated using MSE and R-squared. Future enhancements include deep learning techniques like LSTM for better predictions.
+## 📝 Description
 
-## Introduction
+This project predicts stock prices for **Tata Motors**, **BHEL**, **Zomato**, **TCS**, and **OIL** using **Linear Regression**, **SVM**, **Random Forest**, and **XGBoost**. We trained models on historical data, evaluated using 📉 **Mean Squared Error (MSE)** and 📊 **R-squared**. Future enhancements include deep learning techniques like **LSTM** for better predictions.
 
-This repository contains the research paper, code, and results for the project "Stock Market Prediction Using Machine Learning: A Comparative Study of Supervised Algorithms." We focus on predicting stock prices for companies such as Tata Motors, BHEL, Zomato, TCS, and OIL using various machine learning models.
+---
 
-## Dataset
+## 📘 Introduction
 
-Source: Historical stock market data sourced from National Stock Exchange (NSE) Website.
+This repository contains the **research paper**, **code**, and **results** for the project **"Stock Market Prediction Using Machine Learning: A Comparative Study of Supervised Algorithms."**  
+We focus on predicting stock prices for companies such as Tata Motors, BHEL, Zomato, TCS, and OIL using various machine learning models.
 
-Description: Includes features such as Date, OPEN, HIGH, LOW, PREV. CLOSE, ltp (Last Traded Price), close, vwap (Volume-Weighted Average Price), 52W H (52-Week High), 52W L (52-Week Low), VOLUME, VALUE, and No of trades.
+---
 
-## Models Implemented
+## 📂 Dataset
 
-(1) Linear Regression<br> 
-(2) Support Vector Machines (SVM)<br>
-(3) Random Forest<br>
-(4) XGBoost<br>
-(5) Adaptive Boosting (extra)<br> 
+- **📌 Source**: Historical stock market data sourced from [National Stock Exchange (NSE)](https://www.nseindia.com).
+- **📋 Description**:  
+  Features include:
+  - Date
+  - OPEN
+  - HIGH
+  - LOW
+  - PREV. CLOSE
+  - ltp (Last Traded Price)
+  - close
+  - vwap (Volume-Weighted Average Price)
+  - 52W H (52-Week High)
+  - 52W L (52-Week Low)
+  - VOLUME
+  - VALUE
+  - No. of trades
 
-## Results
+---
 
- (i) Performance Metrics: Evaluated using Mean Squared Error (MSE) and R-squared values.
+## 🤖 Models Implemented
 
- (ii) Comparison: Summary of model performance:
+1. 📈 Linear Regression  
+2. 🔧 Support Vector Machines (SVM)  
+3. 🌲 Random Forest  
+4. 🚀 XGBoost  
+5. ⚡ Adaptive Boosting *(extra)*  
 
-      (a) Random Forest: Struggles to capture upward trends.
-      (b) XGBoost: Slight improvement, but needs better tuning.
-      (c) SVM: Flat predictions, indicating poor adaptability.
-      (d) Linear Regression: Closely follows actual trends but requires more features for accuracy.
+---
 
- (iii) Visualizations: Actual vs. predicted price plots for each model.
+## 📊 Results
 
-## Future Work
+- **📐 Performance Metrics**: Evaluated using **Mean Squared Error (MSE)** and **R-squared values**.
 
-Future enhancements include incorporating deep learning techniques like Long Short-Term Memory (LSTM) networks for more robust predictions. Regular updates and additional features such as macroeconomic indicators can improve model accuracy.
+- **📉 Comparison**:  
+  - 🟠 **Random Forest**: Struggles to capture upward trends.  
+  - 🔵 **XGBoost**: Slight improvement, but needs better tuning.  
+  - 🟢 **SVM**: Flat predictions, indicating poor adaptability.  
+  - 🔴 **Linear Regression**: Closely follows actual trends but requires more features for accuracy.
 
-## Acknowledgements
+- **📈 Visualizations**:  
+  Actual vs. predicted price plots for each model are available in the notebook.
 
-We extend our gratitude to the National Stock Exchange (NSE) repositories for providing historical stock data. Special thanks to our academic advisor, Dr. Sujata Kolhe ma’am for their valuable insights into the stock market domain.
+---
 
-## Contributors
+## 🔮 Future Work
 
-Yash Jahagirdar - Project Lead (https://github.com/Yash-Jahagirdar)<br>
-Teammate 1 - Rohit Kandelkar (https://github.com/rohit-kandelkar)<br>
-Teammate 2 - Rajeshwari Golande
+📌 Future enhancements may include:
+- 🧠 Deep learning models like **LSTM (Long Short-Term Memory)**.
+- 📈 Addition of **macroeconomic indicators** for improved accuracy.
+- 🔄 **Real-time data updates** for continuous learning and prediction.
 
-### Note:
-(i) You'll need to update the CSV file of each stock with everyday readings for accurate results.<br>
-(ii) You can run this project in Visual Studio Code Editor as well.
+---
+
+## 🙏 Acknowledgements
+
+We extend our gratitude to the **National Stock Exchange (NSE)** for historical stock data.  
+Special thanks to our academic advisor, **Dr. Sujata Kolhe ma’am**, for valuable insights into the stock market domain.
+
+---
+
+## 👥 Contributors
+
+- 👨‍💼 **Yash Jahagirdar** [🔗 GitHub](https://github.com/Yash-Jahagirdar)  
+- 👨‍💻 **Rohit Kandelkar** [🔗 GitHub](https://github.com/rohit-kandelkar)  
+- 👩‍💼 **Rajeshwari Golande**
+
+---
+
+### 📌 Note:
+
+- 🗂️ Update the CSV files of each stock daily for accurate results.  
+- 💻 This project can be run on **Visual Studio Code** or any Python-supported IDE.
